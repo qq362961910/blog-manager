@@ -24,7 +24,7 @@
 
         <!--数据库链接地址账号密码，这里由于我使用的是根据开发和生产分离的配置文件，所以这里直接写上了-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://com.wxsk.aidou.db:3306/test"
+                        connectionURL="jdbc:mysql://com.wxsk.aidou.db:3306/test?verifyServerCertificate=false&amp;useSSL=false"
                         userId="amen"
                         password="123456">
         </jdbcConnection>
